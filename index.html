@@ -23,6 +23,30 @@
             </div>
         </nav>
     </header>
+    <main>
+        <nav class="bg-blue-500 p-4">
+            <div class="flex items-center justify-between flex-wrap">
+                <div class="flex items-center flex-shrink-0 text-white mr-6">
+                    <span class="font-semibold text-xl tracking-tight">Mon site</span>
+                </div>
+                <div class="block lg:hidden">
+                    <button class="flex items-center px-3 py-2 border rounded text-blue-200 border-blue-400 hover:text-white hover:border-white">
+                        <svg class="fill-current h-3 w-3" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <title>Menu</title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                    <div class="text-sm lg:flex-grow">
+                        <!-- Responsive header-->
+                        <a href="index.html" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4">Accueil</a>
+                        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4">Produits</a>
+                        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     <div class="max-w-lg mx-auto">
         <ul class="divide-y divide-gray-300">
             <li class="py-4">
@@ -47,12 +71,45 @@
         <div class="w-1/2 bg-green-200 p-3">Elément 1</div>
         <div class="w-1/2 bg-blue-200 p-3">Elément 2</div>
     </div>
-    <div class="max-w-lg rounded overflow-hidden shadow-lg">
+    <div class="max-w-lg rounded overflow-hidden shadow-lg mb-4">
         <img class="w-full" src="img/Shelbygt350.jfif" alt="Placeholder">
         <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Mustang Shelby gt350</div>
             <p class="text-gray-700 text-base">Best sounding car ever made.</p>
         </div>
     </div>
+    <div class="flex items-center mb-4">
+        <div class="bg-blue-200 p-4">Elément 1</div>
+        <div class="bg-green-200 p-4">Elément 2</div>
+        <div class="bg-yellow-200 p-4">Elément 3</div>
+    </div>
+    <div class="flex flex-col mb-4">
+        <div class="bg-blue-200 p-4">Elément 1</div>
+        <div class="bg-green-200 p-4">Elément 2</div>
+        <div class="bg-yellow-200 p-4">Elément 3</div>
+    </div>
+    <div class="flex justify-between mb-4">
+        <div class="bg-blue-200 p-4">Elément 1</div>
+        <div class="bg-green-200 p-4">Elément 2</div>
+        <div class="bg-yellow-200 p-4">Elément 3</div>
+    </div>
+    <div class="flex items-start mb-4">
+        <div class="bg-blue-200 p-4">Elément 1</div>
+        <div class="bg-green-200 p-4">Elément 2</div>
+        <div class="bg-yellow-200 p-4">Elément 3</div>
+    </div>
+    <div class="flex mb-4">
+        <div class="bg-blue-200 p-4 flex-grow">Elément 1</div>
+        <div class="bg-green-200 p-4 flex-shrink">Elément 2</div>
+        <div class="bg-yellow-200 p-4 flex-no-grow">Elément 3</div>
+    </div>
+</main>
+<footer>
+    <div class="flex items-center justify-between flex-wrap bg-gray-500 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <span class="font-semibold text-xs tracking-tight">&copy; Site créé par un développeur Junior</span>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

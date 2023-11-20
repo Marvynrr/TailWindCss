@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemple TailWindCss</title>
-    <link href="path/to/output.css" rel="stylesheet">
-</head>
-<body>
-    <div class="bg-blue-500 text-white p-4">
-        <h1 class="text-2xl">Titre</h1>
-        <p class="mt-4">Contenu...</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemple TailWindCss</title>
+        <link href="output.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+        <nav class="flex items-center justify-between flex-wrap bg-gray-500 p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <span class="font-semibold text-xl tracking-tight">Mon site</span>
+            </div>
+            <div class="block lg-hidden">
+                <button class="flex items-center px-3 py-2 border rounded text-blue-200 border-blue-400 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                    </svg>
+                </button>
+                <a href="connection.html">Connection</a>
+            </div>
+        </nav>
+    </header>
+    <div class="max-w-lg mx-auto">
+        <ul class="divide-y divide-gray-300">
+            <li class="py-4">
+                <a href="#" class="text-blue-500 hover:text-blue-700">Titre de l'article 1</a>
+                <p class="text-gray-500 text-sm">Description de l'article 1</p>
+            </li>
+            <li class="py-4">
+                <a href="#" class="text-blue-500 hover:text-blue-700">Titre de l'article 2</a>
+                <p class="text-gray-500 text-sm">Description de l'article 2</p>
+            </li>
+            <!-- Ajoutez plus d'éléments de liste selon vos besoins-->
+        </ul>
     </div>
-    
+        <div class="bg-blue-700 text-white p-4">
+            <h1 class="text-2xl">Titre</h1>
+            <p class="mt-4">Contenu...</p>
+        </div> 
+    <div class="m-4">
+        <p class="p-3 bg-gray-200">Texte avec un rembourrage</p>
+    </div>
+    <div class="flex space-x-4 mb-4">
+        <div class="w-1/2 bg-green-200 p-3">Elément 1</div>
+        <div class="w-1/2 bg-blue-200 p-3">Elément 2</div>
+    </div>
+    <div class="max-w-lg rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="img/Shelbygt350.jfif" alt="Placeholder">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Mustang Shelby gt350</div>
+            <p class="text-gray-700 text-base">Best sounding car ever made.</p>
+        </div>
+    </div>
 </body>
 </html>
